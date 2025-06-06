@@ -63,6 +63,15 @@ Then open `.env` and configure your database connection and other required varia
 go mod tidy
 ```
 
+### 4. Run MySQL Docker Container 
+(Optional), you can use your own database.
+
+```bash
+cd /mysql-docker
+docker compose up -d
+```
+Then run/import ```database_queries.sql```
+
 ---
 
 ## Running the Application
